@@ -1,0 +1,65 @@
+ /* Full credit to code.org for task */
+  
+
+body {
+  font-family: 'Courier New', Courier, monospace; /* The font for the heading */
+  margin: 0;
+  padding: 0;
+  background-color: #9a9e94; 
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #374d28; 
+  color: #333; /*text color */
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Animal section styles */
+.animal {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #4d661e;
+  border-radius: 10px;
+  background-color: #39612e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.animal:hover {
+  transform: translateY(-5px);
+}
+
+/* Image styles */
+.animal img {
+  border: 5px solid #4a7e20;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.animal:hover img {
+  transform: scale(1.1);
+}
+
+/* Animal name styles */
+.animal h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #67ad6b;  
+  font-family: 'Georgia', serif;
+}
+h1{
+  color: #3d943d;
+}
+
